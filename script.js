@@ -201,7 +201,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   if (!form) return;
 
   // ── Change this URL when you deploy the backend ──────────
-  const API_URL = 'http://localhost:8080/api/contact';
+  const API_URL = 'https://portfolio-backend-y4ic.onrender.com/api/contact';
 
   form.addEventListener('submit', async e => {
     e.preventDefault();
